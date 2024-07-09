@@ -1,8 +1,6 @@
 .open-azeret-mono {
-  font-family: 'Azeret Mono', monospace;
+  font-family: '"Azeret Mono"', monospace;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 
 .nav-title {
@@ -31,4 +29,8 @@ ul li {
 }
 .banner-profile-photo {
   display: flex;
+}
+.secondary-bg {
+  background-image: url('../assets/Hero-bg.png');
+  padding: 300px;
 }
