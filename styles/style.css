@@ -8,3 +8,15 @@
   font-weight: 128;
   font-size: 33px;
 }
+nav ul li {
+  list-style: none;
+}
+.dark-1 {
+  color: #0d1321;
+}
+nav ul {
+  display: flex;
+}
+nav {
+  display: flex;
+}
