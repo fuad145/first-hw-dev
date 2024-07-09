@@ -34,3 +34,18 @@ ul li {
   background-image: url('../assets/Hero-bg.png');
   padding: 300px;
 }
+.work-below {
+  font: bold;
+}
+main {
+  margin: 0 auto;
+  padding: 130px 150px;
+  text-align: center;
+}
+.ultra-violation {
+  color: white;
+  background-color: black;
+  width: 244;
+  height: 65;
+  border-radius: 8;
+}
