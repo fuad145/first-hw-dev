@@ -4,6 +4,7 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
 .nav-title {
   font-weight: 128;
   font-size: 33px;
@@ -20,8 +21,6 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-ul li{
+ul li {
   padding: 24px;
-
 }
-
