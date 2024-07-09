@@ -14,9 +14,14 @@ nav ul li {
 .dark-1 {
   color: #0d1321;
 }
-nav ul {
-  display: flex;
-}
+
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+ul li{
+  padding: 24px;
+
+}
+
