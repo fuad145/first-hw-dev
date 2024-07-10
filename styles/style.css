@@ -32,11 +32,10 @@ ul li {
 }
 .secondary-bg {
   background-image: url('../assets/Hero-bg.png');
+
   padding: 300px;
 }
-.work-below {
-  font: bold;
-}
+
 main {
   margin: 0 auto;
   padding: 130px 150px;
@@ -48,4 +47,8 @@ main {
   width: 244;
   height: 65;
   border-radius: 8;
+  text-align: center;
+}
+.perfect-season {
+  font-weight: 800;
 }
