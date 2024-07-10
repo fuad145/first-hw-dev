@@ -116,12 +116,10 @@ main section {
   padding: 0px;
 }
 .skill-spot {
-  flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
   margin: 48px 0px;
-  box-sizing: border-box;
 }
 .skills {
   position: static;
@@ -131,5 +129,18 @@ main section {
 .section-title {
   font-weight: 900px;
   font-size: 48px;
-  padding-left: 200px;
+  padding-inline: 200px;
+}
+.single-slot-3 {
+  align-items: center;
+  width: 274px;
+  padding-left: 350px;
+}
+.single-slot-2 {
+  width: 240px;
+  padding-right: 350px;
+}
+.single-slot-1 {
+  width: 240px;
+  padding-left: 350px;
 }
