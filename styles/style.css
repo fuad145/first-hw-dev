@@ -23,9 +23,12 @@ ul li {
   padding: 24px;
 }
 .btn-primary {
-  font-weight: 20;
-  padding: 5px 10px;
-  border-radius: 8px;
+  box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+
+opacity: 0.8;
+
 }
 .banner-profile-photo {
   display: flex;
@@ -33,7 +36,8 @@ ul li {
 .secondary-bg {
   background-image: url('../assets/Hero-bg.png');
   text-align: center;
-  padding: 300px;
+  padding: 250px;
+  
 }
 
 main {
@@ -50,11 +54,15 @@ main {
   text-align: center;
 }
 .button-primary {
-  background-color: #0d1321;
-  color: #ffffff;
-  padding: 21px 24px;
-  border-radius: 8px;
-  font-size: 15px;
+   background-color: #0d1321; 
+   color: #ffffff; 
+  border-radius: 8px; 
+  width: 208px; 
+height: 66px; 
+flex-direction: row;
+justify-content: center;
+align-items: center;
+ 
 }
 .banner-photo {
   position: absolute;
@@ -98,12 +106,12 @@ main {
   height: 115px;
   b
 }
-.skill {
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 48px 0px;
-}
+.skills {
+  position: static ;}
+
+
+
+  
 .section-description {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
@@ -113,3 +121,16 @@ main {
   letter-spacing: 0%;
   text-align: center;
 }
+.skills-container{
+  display: flex;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+gap: 24px;
+}
+.skill{
+  padding: 48px;
+
+}
+
