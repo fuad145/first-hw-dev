@@ -32,7 +32,7 @@ ul li {
 }
 .secondary-bg {
   background-image: url('../assets/Hero-bg.png');
-
+  text-align: center;
   padding: 300px;
 }
 
@@ -48,4 +48,22 @@ main {
   height: 65;
   border-radius: 8;
   text-align: center;
+}
+.button-primary {
+  background-color: #0d1321;
+  color: #ffffff;
+  padding: 21px 24px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.button-close {
+  text-align: top;
+}
+.banner-title {
+  font-weight: 900px;
+  font-size: 48px;
+}
+.banner-greetings {
+  font-size: 16px;
+  font-weight: lighter;
 }
