@@ -56,12 +56,20 @@ main {
   border-radius: 8px;
   font-size: 15px;
 }
-.button-close {
+.banner-photo {
+  position: absolute;
+  width: 240.28px;
+  height: 240px;
+  top: 10%;
+  bottom: 0%;
 }
 .banner-title {
   font-weight: 900px;
   font-size: 48px;
+  padding-left: 40px;
 }
 .banner-greetings {
   font-size: 16px;
+  align-items: center;
+  padding-left: 38px;
 }
